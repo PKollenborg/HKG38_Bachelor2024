@@ -1,4 +1,0 @@
-
-#define SECRET_SSID "BSG38"
-#define SECRET_PASS "Bachelor2024"
-#define SECRET_WEATHERAPI "e78c95b2b5c879870c57acda53270e3d"
