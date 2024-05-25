@@ -1,0 +1,15 @@
+1. Import LXC containers, and log in using the included credentials.
+Proxmox RECOMMENDED,   Assign 4GB and 2 cores per VM if prompted, this can then be adjusted later.
+
+2. After node red has been deployed, run import the JSON file in "NODE-RED JSON"
+this will configure most of the system, excluding credentials.
+
+3. "SQL_SCHEMA" contains SQL schema files required to:
+
+A: create an empty sensorData DB
+or 
+B:  import the anonymized dataset from the project. 
+
+
+Last but not least, sensor sourcecode has been included in the "Sensors" directory.
+Remember to configure your respective SSID, PASSWORD, MQTT/COAP server and desired IDs
